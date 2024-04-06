@@ -1,0 +1,35 @@
+{
+    "product":[
+        
+        {
+            "pid":101,
+            "pname":"Speaker",
+            "price":2500
+        },
+
+        {
+            "pid":102,
+            "pname":"Mouse",
+            "price":900
+        },
+
+        {
+            "pid":103,
+            "pname":"Bag",
+            "price":1500
+        },
+
+        {
+            "pid":104,
+            "pname":"Books",
+            "price":250
+        },
+
+        {
+            "pid":105,
+            "pname":"Mobile",
+            "price":30000
+        }
+
+    ]
+}

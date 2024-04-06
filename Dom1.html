@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function change(){
+            var x= document.getElementById("h");
+            x.style.color="Yellow";
+            var y= document.getElementById("i");
+            y.style.color="Red";
+        }
+
+        function msg(){
+            var z =document.getElementById("i");
+            z.innerHTML="It is Server Side Scripting Language";
+        }
+    </script>
+    <h1 id="h">Javascript</h1>
+    <p id="i">It is Scripting Language</p>
+    <button type="submit" onclick="change()">Change Color</button>
+    <button type="submit" onclick="msg()">Change Text</button>
+</body>
+</html>

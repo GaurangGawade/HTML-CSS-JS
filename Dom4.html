@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Json is Nothing but Javascript Object Notation</p>
+    <p>In JSON data is available in the form of key value pair</p>
+    <button type="submit" onclick="change()">Change Style</button>
+    <script>
+        function change(){
+            let x= document.getElementsByTagName("p");
+            x[0].style.color="red";
+            x[1].style.color="blue";
+            x[0].style.background="blue";
+            x[1].style.background="red";
+        }
+    </script>
+</body>
+</html>
